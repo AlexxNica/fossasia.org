@@ -456,7 +456,7 @@ nav .logo {
   max-height: 45px;
   max-width: 110px;
   position: absolute;
-  top: -6px;
+  top: 0px;
   opacity: 1;
 }
 nav .text-right {
@@ -1715,7 +1715,7 @@ nav .container {
 .type {
   font-weight: 600;
   color: #333333;
-  font-size: 72px;
+  font-size: 61px;
 }
 .dollar {
   font-size: 36px;

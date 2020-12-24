@@ -1,13 +1,12 @@
 $(document).ready(function() {
     
-    var url = 'http://blog.fossasia.org/feed/?format=xml';
+    var url = 'https://blog.fossasia.org/feed/?format=xml';
     feeds(url);
  });
 
 
 function feeds(url){
 var blog = $("#result");
-console.log(blog)
 var html = [];
 feednami.load(url,function(result){
         if(result.error) {
